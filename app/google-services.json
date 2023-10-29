@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126533288199",
+    "project_id": "dental-clinic-app-659b9",
+    "storage_bucket": "dental-clinic-app-659b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126533288199:android:a4c736513b523f0fcf45a2",
+        "android_client_info": {
+          "package_name": "com.example.dentalclinic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3ERjyHr4uVCEtXpBAxo1IpHE5AFhZlv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

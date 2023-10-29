@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorProfileActivity">
+
+    <ImageView
+        android:id="@+id/doctorImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/default_doctor_image"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/textViewFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="First Name: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewFirstName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Last Name: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLastName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Email: "
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/buttonSeeReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Report"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewEmail"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/buttonSeeReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Review"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonSeeReport"
+        android:layout_marginTop="16dp" />
+
+
+</RelativeLayout>
